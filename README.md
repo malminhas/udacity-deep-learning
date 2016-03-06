@@ -37,12 +37,14 @@ $ pip install Pillow
  - We use it to run through some basic data curation techniques.
  - Training set = 19k labelled 28x28 images in ten classes 'A' through to 'J'.  284Mb in size.
  - Extract from raw .tar.gz of .png files.  Convert png data into 3D ndarray and pickle it to 10 separate files depending on label. Takes well over 2 hours to do this on VM on my laptop!
+ 
 **2. fullyconnected.ipynb**:
  - Same data as in previous assignment.  This time we use tensorflow (tf) with it.
  - With tf there are two stages: i) build computation graph, ii) run successive operations on it.
  - first example shown is BGD logistic.  Accuracy: 82.6
  - second example shown is SGD logistic.  Accuracy: 86.3%
  - worked example is SGD with a single hidden layer NN.  Apply RELU over hidden layer. Accuracy: 93.4%
+
 **3. regularisation.ipynb**:
  - Regularisation is used to address overfitting. 
  - try SGD logistic from assignment 2 with regularization.  Accuracy: 89.2%
