@@ -47,9 +47,9 @@ $ pip install Pillow
 
 **3. regularisation.ipynb**:
  - Regularisation is used to address overfitting. 
- - try SGD logistic from assignment 2 with regularization.  Accuracy: 89.2%
- - try SGD with a single hidden layer neural net. Accuracy: 93.6%
- - try smaller range of samples
- - try dropouts
- - try SGD with a single hidden layer NN and 50% dropout.  Accuracy: 92.8%
- - try SGD with three hidden layer NN, learning rate decay and 50% dropout. Accuracy: 94.8%
+ - Try SGD logistic from assignment 2 with regularization.  Accuracy: 89.2%
+ - Try SGD with a single hidden layer neural net. Accuracy: 93.6%
+ - Try smaller range of samples
+ - Try dropouts
+ - Try SGD with a single hidden layer NN and 50% dropout.  Accuracy: 92.8%
+ - Try SGD with three hidden layer NN, learning rate decay and 50% dropout and three times as many steps to run through. Accuracy: 94.8%.  Warning: this took over ~10 hours to run to completion on VM on my laptop.
