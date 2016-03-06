@@ -21,7 +21,8 @@ $ workon tf
 # We want the 64-bit CPU only Python 2.7 version of tensorflow
 (tf)$ pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.7.0-py2-none-linux_x86_64.whl
 (tf)$ python
->> 
+Python 2.7.6 (default, Nov 10 2013, 19:24:18) [MSC v.1500 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
 >> import tensorflow as tf
 >> 
 ```
