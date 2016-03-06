@@ -19,7 +19,7 @@ $ workon tf
 (tf)$ pip wheel ipython[notebook]
 (tf)$ pip install ipython[notebook]
 # We want the 64-bit CPU only Python 2.7 version of tensorflow
-(tf)$ pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.7.0-py2-none-linux_x86_64.whl
+(tf)$ pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.7.0-py2-none-linux_x86_64.whl
 (tf)$ python
 >> 
 >> import tensorflow as tf
