@@ -70,3 +70,11 @@ $ pip install Pillow
  - Limited dropout to 30% on fully connected layer only.  Left learning rate decay in there.  Test Accuracy: 77%
  - IMPORTANT: Solutions involving max pooling only run in a VM with 8GB RAM + processors set to 2.
 
+**5. word2vec.ipynb**:
+ - Data is text8 100MB text data file
+ - Starting point: implementation of word2vec, tf computation graph, execute 100k steps
+ - Average loss at step 100000: 3.357733
+ - Problem: implementation of CBOW (continuous bag of words), tf computation graph, execute 100k steps
+ - Involves swapping between target and label so instead of word->context we have context->word:
+ - Average loss at step 100000: 3.357481
+
